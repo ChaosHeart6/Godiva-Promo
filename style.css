@@ -84,3 +84,10 @@ footer {
         margin: 10px auto;
     }
 }
+
+#banner{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: opacity 1s;
+}
