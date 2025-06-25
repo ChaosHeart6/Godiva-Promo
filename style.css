@@ -28,7 +28,7 @@ header img {
 
 .products{
     padding: 30px;
-    background-color: #333;
+    background-color: #fffaf0;
     text-align: center;
 }
 
@@ -40,11 +40,11 @@ header img {
 .card{
     display: inline-block;
     width: 280px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 12px;
     padding: 15px;
     margin: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 12px 10px 6px rgba(70, 45, 45, 0.5);
     background-color: white;
 }
 
