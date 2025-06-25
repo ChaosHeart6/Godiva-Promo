@@ -1,0 +1,1 @@
+console.log("GODIVA 活動頁啟動!");

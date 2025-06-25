@@ -26,10 +26,44 @@ header img {
     width: 300px;
 }
 
+.products{
+    padding: 30px;
+    background-color: #333;
+    text-align: center;
+}
+
+.products h2{
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.card{
+    display: inline-block;
+    width: 280px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 .price {
     color: red;
     font-size: 1.2em;
     font-weight: bold;
+}
+
+.card .price{
+    color: darkred;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .form-section {
@@ -42,4 +76,11 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+}
+
+@media(max-width:768px){
+    .card{
+        width: 90%;
+        margin: 10px auto;
+    }
 }
