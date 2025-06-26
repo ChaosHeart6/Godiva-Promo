@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>留言表單</title>
+    </head>
+    <body>
+        <h2>留下你的留言</h2>
+        <form method="POST" action="save.php">
+            <label>姓名：</label>
+            <input type="text" name="name" required><br><br>
+
+            <label>留言:</label>
+            <textarea name="message" required></textarea><br><br>
+
+            <label >email</label>
+            <input type="email" name="email" required><br><br>
+
+            <button type="submit">送出留言</button>
+        </form>
+    </body>
+</html>
