@@ -1,4 +1,5 @@
 console.log("GODIVA 活動頁啟動!");
+console.log("GODIVA HELLO!");
 
 const banner = document.getElementById("banner");
 const images = [
