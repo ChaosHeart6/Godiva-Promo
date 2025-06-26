@@ -3,20 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <title>留言表單</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h2>留下你的留言</h2>
-        <form method="POST" action="save.php">
-            <label>姓名：</label>
-            <input type="text" name="name" required><br><br>
+        <Header>
+        <h2>活動意見回饋</h2>
+            <form method="POST" action="save.php">
+                <label>姓名：</label>
+                <input type="text" name="name" required><br><br>
 
-            <label>留言:</label>
-            <textarea name="message" required></textarea><br><br>
+                <label >email：</label>
+                <input type="email" name="email" required><br><br>
 
-            <label >email</label>
-            <input type="email" name="email" required><br><br>
+                <label>留言：</label>
+                <textarea name="message" rows="6" required></textarea><br><br>
 
-            <button type="submit">送出留言</button>
-        </form>
+                <button type="submit">送出留言</button>
+            </form>
+        </Header>
     </body>
 </html>
