@@ -18,7 +18,8 @@ $stmt->bind_param("sss", $name, $email, $message);
 $stmt->execute();
 
 echo "留言送出成功！<br>";
-echo "<a href='form.html'>回到表單</a>";
+echo "<a href='index.html'>回到活動網頁</a><br>";
+echo "<a href='view.php'>查看其他留言</a>";
 
 $stmt->close();
 $conn->close();
