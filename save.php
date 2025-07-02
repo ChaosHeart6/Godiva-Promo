@@ -14,7 +14,7 @@ $message = $_POST["message"];
 
 $sql = "INSERT INTO messages(name , email , message) VALUES(? , ? , ?)";
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("sss", $name, $email, $message);
+$stmt->bind_param("sss", $name, $email, $message);/*預防SQL INJECTION */
 $stmt->execute();
 
 echo "留言送出成功！<br>";
