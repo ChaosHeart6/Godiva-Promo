@@ -9,7 +9,7 @@ if($conn->connect_error){
     die("連線失敗：" . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM messages ORDER BY create_at DESC";
+$sql = "SELECT * FROM messages ORDER BY created_at DESC";
 $result = $conn->query($sql);
 ?>
 <!DOCTYPE html>
