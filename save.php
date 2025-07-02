@@ -19,6 +19,7 @@ $stmt->execute();
 
 echo "留言送出成功！<br>";
 echo "<a href='form.html'>回到表單</a>";
+echo "<a href='view.php'>觀看留言板</a>";
 
 $stmt->close();
 $conn->close();
