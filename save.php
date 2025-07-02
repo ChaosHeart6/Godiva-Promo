@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$dbname = "godiva_db";
+$dbname = "godiva_db";/*本機測試用連線，如要測試功能請連網址，或是自己創造MYSQL資料庫*/
 
 $conn = new mysqli($host, $user, $password, $dbname);
 if($conn->connect_error){
